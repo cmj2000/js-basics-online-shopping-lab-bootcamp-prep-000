@@ -47,11 +47,14 @@ function viewCart() {
     
     
     if(i < cart.length-1){
-      return str += cart[i]["itemName"] + " at "+ "$" + cart[i]["itemPrice"] + 
-      
-    
-    }
+       str += cart[i]["itemName"] + " at "+ "$" + cart[i]["itemPrice"]  
+       }
+       
+      else{str += " and " +
+        
+      }
   }
+}
 }
 // getCart ()
 
