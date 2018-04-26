@@ -30,8 +30,8 @@ function addToCart(item) {
 function viewCart() {
   // write your code here
   var str = "In your cart, you have "
-  var item = cart[i]["itemName"]
-  var price = cart[i]["itemPrice"]
+  var item 
+  var price 
   
   if(cart.length === 0){
     return"Your shopping cart is empty."
