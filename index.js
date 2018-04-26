@@ -37,20 +37,13 @@ function viewCart() {
   
     return str += item + " at "+ "$" + price + "."
   }
-  else
+  else{
     for(var i =0; i<cart.length; i++){
     item = cart[i]["itemName"]
     price = cart[i]["itemPrice"]
-    
-    
-    
-    //if (cart.length === 1){
-    //return str += item + " at "+ "$" + price + "."
-   // }
-     
+       }
   
-  }
-  
+}
 // getCart ()
 
   
@@ -81,7 +74,7 @@ function viewCart() {
         
       }*/
       
-    }
+  
 //////////done//////////////////////////
 function total() {
 // var item = 0
