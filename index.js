@@ -33,7 +33,7 @@ function viewCart() {
   if(cart.length === 0){
     return"Your shopping cart is empty."
   }
-  else{
+  else if(){
   
   
     for(var i =0; i<cart.length; i++){
@@ -45,9 +45,7 @@ function viewCart() {
     //if (cart.length === 1){
     //return str += item + " at "+ "$" + price + "."
     }
-      if (cart.length === 1){
-      return str += item + " at "+ "$" + price + "."
-      }
+     
   
   }
   
