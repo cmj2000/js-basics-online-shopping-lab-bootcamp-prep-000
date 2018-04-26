@@ -39,8 +39,8 @@ function viewCart() {
   }
   else{ 
     for(var i =0; i<cart.length; i++){
-       item = cart[i]["itemName"]
-       price = cart[i]["itemPrice"]
+      var item = cart[i]["itemName"]
+      var price = cart[i]["itemPrice"]
     }
   
   }
