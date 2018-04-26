@@ -42,8 +42,8 @@ function viewCart() {
     
     
     
-    if (cart.length === 1){
-    return str += item + " at "+ "$" + price + "."
+    //if (cart.length === 1){
+    //return str += item + " at "+ "$" + price + "."
     }
       
      
