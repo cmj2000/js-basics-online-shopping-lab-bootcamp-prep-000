@@ -88,7 +88,7 @@ return str
       }*/
       
   
-//////////done//////////////////////////
+
 function total() {
 // var item = 0
   var price = 0
