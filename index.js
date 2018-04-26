@@ -32,10 +32,15 @@ function viewCart() {
   var str = "In your cart, you have "
   if(cart.length === 0){
     return"Your shopping cart is empty."
-  }else if (cart.length === 1){
-    return str += item + " at "+ "$" + price + "."
   }
+  for(var i =0; i<cart.length; i++){
+    item = cart[i][]
+    price =
     
+    if (cart.length === 1){
+    return str += item + " at "+ "$" + price + "."
+     }
+  }
   
 // getCart ()
 
