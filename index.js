@@ -38,7 +38,7 @@ function viewCart() {
   }
   else if (cart.length === 1){
   
-    return str += cart[0]item + " at "+ "$" + price + "."
+    return str += cart[0]["itemName"] + " at "+ "$" + cart[0] + "."
   }
   else{ 
     for(var i =0; i<cart.length; i++){
