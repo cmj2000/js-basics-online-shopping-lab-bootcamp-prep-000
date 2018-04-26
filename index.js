@@ -37,7 +37,7 @@ function viewCart() {
   
     return str += item + " at "+ "$" + price + "."
   }
-  
+  else
     for(var i =0; i<cart.length; i++){
     item = cart[i]["itemName"]
     price = cart[i]["itemPrice"]
