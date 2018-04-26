@@ -40,10 +40,13 @@ function viewCart() {
   
     return str += cart[0]["itemName"] + " at "+ "$" + cart[0]["itemPrice"] + "."
   }
-  else{ 
+  else if(cart.length > 1){ 
     for(var i =0; i<cart.length; i++){
        item = cart[i]["itemName"]
        price = cart[i]["itemPrice"]
+    
+      
+      
     }
   
   }
