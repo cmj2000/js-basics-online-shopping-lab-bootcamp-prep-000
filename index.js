@@ -47,10 +47,10 @@ function viewCart() {
     
     
     if(i < cart.length-1){
-       str += cart[i]["itemName"] + " at "+ "$" + cart[i]["itemPrice"]  
+       str += cart[i]["itemName"] + " at "+ "$" + cart[i]["itemPrice"]  + ", "
        }
        
-      else{str += " and " +
+      else{str += " and " + cart[i]["itemName"] + " at "+ "$" + cart[i]["itemPrice"]+ "."
         
       }
   }
