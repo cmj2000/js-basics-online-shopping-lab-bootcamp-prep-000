@@ -45,10 +45,12 @@ function viewCart() {
        item = cart[i]["itemName"]
        price = cart[i]["itemPrice"]
     
-      
+    
+    if(i < cart.length-1){
+      return str += cart[i]["itemName"] + " at "+ "$" + cart[i]["itemPrice"] + 
       
     }
-  
+    }
   }
 }
 // getCart ()
