@@ -37,9 +37,11 @@ function viewCart() {
     item = cart[i]["itemName"]
     price = cart[i]["itemPrice"]
     
-    if (cart.length === 1){
-    return str += item + " at "+ "$" + price + "."
+   
      }
+     
+     
+     
   }
   
 // getCart ()
