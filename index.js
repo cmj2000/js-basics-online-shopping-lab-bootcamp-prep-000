@@ -34,8 +34,8 @@ function viewCart() {
     return"Your shopping cart is empty."
   }
   for(var i =0; i<cart.length; i++){
-    item = cart[i][]
-    price =
+    item = cart[i]["itemName"]
+    price = cart[i][""]
     
     if (cart.length === 1){
     return str += item + " at "+ "$" + price + "."
